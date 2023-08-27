@@ -1,0 +1,125 @@
+.logo {
+    border-radius: 25px;
+    width: 150px;
+    height: 70px;
+  }
+  
+  .icon{
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  }
+  
+  .head {
+  height: 100px;
+  background-color: rgb(3, 4, 41);
+  }
+  
+  .h{
+  box-shadow: 20px;
+  margin-left: 85px;
+  margin-top: -64px;
+  font-weight: 50px;
+  color: rgb(255, 255, 255);
+  
+  }
+  
+  .hea{
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 3px 3px salmon;
+  margin-top: -30px;
+  
+  }
+
+  .nav li a:not(:active):hover{
+  background-color: rgb(214, 16, 26);
+}
+
+
+  .nav{
+    margin-left: 740px;
+    margin-top: -45px;
+    display: flex;
+    
+  }
+
+  .ico{
+    height: 20px;
+    width: 20px;
+    color: aliceblue;
+  }
+
+  .nav li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+  }
+
+  .nav li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0.8rem;
+    margin: 0 0.8rem;
+    border-radius: 0.5rem;
+  }
+
+  .sliding-text-container {
+    height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    background-color: rgb(193, 211, 28);
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .sliding-text {
+    color: orangered;
+    animation: slide 20s linear infinite; /* Adjust duration and animation timing as needed */
+    white-space: nowrap;
+  }
+
+  .sliding-text b{
+    color: red;
+  }
+  
+  @keyframes slide {
+    100% {
+      transform: translateX(0%);
+    }
+    50%{
+      transform: translateX(50%);
+    }
+    0%{
+      transform: translateX(100%);
+    }
+  }
+  
+  .search{
+  margin-left: 380px;
+  margin-top: -50px;
+  }
+  .search input{
+    background-color: rgb(225, 240, 235);
+    font-size: large;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .btns{
+  height: 35px;
+  width: 70px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  border-radius: 10px;
+  background-color: rgb(33, 124, 209);
+  }
+  .btns:not(:active):hover{
+    background-color: rgb(20, 194, 72);
+  }
+  
+  .searc{
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+  
+  }

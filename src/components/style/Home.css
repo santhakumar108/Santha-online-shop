@@ -1,0 +1,202 @@
+.container{
+    margin-top: -12px;
+    background-color: rgb(3, 4, 41);
+}
+
+.slide-container{
+    height: 350px;
+    width: 60%;
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('https://www.google.com/search?q=happy+diwali+2023+images&tbm=isch&ved=2ahUKEwii9ey7tuuAAxV-5TgGHbHrBL0Q2-cCegQIABAA&oq&gs_lcp=CgNpbWcQARgDMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnOgQIIxAnUOMsWPtDYPxaaAFwAHgEgAHAIYgBymOSAQU4LTEuNJgBAKABAaoBC2d3cy13aXotaW1nsAEKwAEB&sclient=img&ei=LSDiZOKqEv7K4-EPsdeT6As&bih=611&biw=1366&rlz=1C1RXQR_enIN1058IN1059#imgrc=EULYXAnX-eg4IM');
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 8px 8px rgb(100, 21, 21);
+    animation: slider 9s infinite linear;
+}
+
+@keyframes slider{
+    0%{ background-image: url('https://www.google.com/search?q=happy+diwali+2023+images&tbm=isch&ved=2ahUKEwii9ey7tuuAAxV-5TgGHbHrBL0Q2-cCegQIABAA&oq&gs_lcp=CgNpbWcQARgDMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnOgQIIxAnUOMsWPtDYPxaaAFwAHgEgAHAIYgBymOSAQU4LTEuNJgBAKABAaoBC2d3cy13aXotaW1nsAEKwAEB&sclient=img&ei=LSDiZOKqEv7K4-EPsdeT6As&bih=611&biw=1366&rlz=1C1RXQR_enIN1058IN1059#imgrc=EULYXAnX-eg4IM');}
+    35%{background-image: url('https://www.google.com/search?q=happy+diwali+2023+images&tbm=isch&ved=2ahUKEwii9ey7tuuAAxV-5TgGHbHrBL0Q2-cCegQIABAA&oq&gs_lcp=CgNpbWcQARgDMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnOgQIIxAnUOMsWPtDYPxaaAFwAHgEgAHAIYgBymOSAQU4LTEuNJgBAKABAaoBC2d3cy13aXotaW1nsAEKwAEB&sclient=img&ei=LSDiZOKqEv7K4-EPsdeT6As&bih=611&biw=1366&rlz=1C1RXQR_enIN1058IN1059#imgrc=G4TL-u3F01vv4M');}
+    75%{background-image: url('https://www.google.com/search?q=happy+diwali+2023+images&tbm=isch&ved=2ahUKEwii9ey7tuuAAxV-5TgGHbHrBL0Q2-cCegQIABAA&oq&gs_lcp=CgNpbWcQARgDMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnOgQIIxAnUOMsWPtDYPxaaAFwAHgEgAHAIYgBymOSAQU4LTEuNJgBAKABAaoBC2d3cy13aXotaW1nsAEKwAEB&sclient=img&ei=LSDiZOKqEv7K4-EPsdeT6As&bih=611&biw=1366&rlz=1C1RXQR_enIN1058IN1059#imgrc=zZ3MqTXAyNn9LM');}
+}
+
+.content{
+    margin-top: 66vh;
+}
+.iphone-head{
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px silver;
+
+}
+
+.icons{
+    height: 100px;
+    width: 80px;
+    color: rgb(209, 87, 87);
+    margin-left: 100px;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.categories-conten{
+    width: 12%;
+    margin: 25px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 0 10px 10px rgba(255, 255, 255, 0.22);
+    transition: .4s;
+    background: #f2f2f2;
+}
+
+.categories-conten:hover{
+    box-shadow: 0 3px 6px rgba(255, 255, 255, 0.16), 0 3px 6px rgba(255, 255, 255, 0.23);
+    transform: translate(0px, -0px);
+}
+.categories-conten img{
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.categories-conten h4{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.conten h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.conten{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 0 10px 10px rgba(255, 255, 255, 0.22);
+    transition: .4s;
+    background: #f2f2f2;
+}
+.conten:hover{
+    box-shadow: 0 3px 6px rgba(255, 255, 255, 0.16), 0 3px 6px rgba(255, 255, 255, 0.23);
+    transform: translate(0px, -0px);
+}
+.conten img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.conten p{
+    text-align: center;
+    color: #b2bec3;
+    padding-top: 0 8px;
+}
+.conten h6{
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;
+}
+.conten ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+}
+li{
+    padding-top: 5px;
+}
+.fa{
+    font-size: 26px;
+    transition: .4s;
+    margin: 3px;
+}
+.checked{
+    color: #ff9f43;
+}
+.conten button{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.buy-1{
+    background: #e6400d;
+}
+@media(max-width:1000px){
+    .conten{
+        width: 45px;
+    }
+}
+@media(max-width:750px){
+    .conten{
+        width: 100%;
+    }
+}
+
+.buy-2{
+    text-align: center;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    background-color: #e6400d;
+    width: 89%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.oneplus-head{
+    color: red;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 2px red;
+}
